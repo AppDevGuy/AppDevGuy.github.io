@@ -11,14 +11,27 @@
         font-family: Lato, "Helvetica", san-serif;
         height: 85vh;
         padding: 12px;
-        border: solid 1px #eb00ff;
+        background-color: #111;
       }
 
       .container {
         max-width: 1200px;
+        border: solid 1px #eb00ff;
         margin: 10px auto;
+        padding: 16px;
         height: 100%;
-        text-align: center;
+        text-align: left;
+        color: white;
+        font-weight: 500;
+      }
+
+      .innerContainer {
+        width: 100%;
+        margin: auto;
+      }
+
+      a {
+        color: #eb00ff;
       }
 
       footer {
@@ -34,17 +47,18 @@
       .footer-div {
         margin: auto;
       }
+      footer {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="main" style="font-size: 14px; color: black; font-weight: 500">
-        <div
-          class="heading"
-          style="font-size: 36px; color: black; font-weight: 700"
-        >
-          Contacting Support
-        </div>
+        <div class="innerContainer">
+            <h1 style="text-align: center;">Sposta App</h1>
+        <h2>
+          Get in touch
+        </h2>
         <p>
           If you have a support issue or would like to contact the developer
           about an issue, idea or feature, you can follow one of the below
@@ -66,17 +80,15 @@
           version details, which can be found on the App Store or in the app in
           the Support section.
         </p>
-        <div
-          class="heading"
-          style="font-size: 36px; color: black; font-weight: 700"
-        >
+        <h2>
           Sposta App Privacy Policy
-        </div>
-        <a href="privacypolicy.html">Privacy Policy</a>
+        </h2>
+        <p>You can review our Privacy Policy here: <a href="privacypolicy.html">Privacy Policy</a></p>
         <p>This privacy policy was last modified on 8th July 2022.</p>
         <p></p>
       </div>
       <footer>Copyright © Sposta App, 2022</footer>
+      </div>
     </div>
   </body>
 </html>
